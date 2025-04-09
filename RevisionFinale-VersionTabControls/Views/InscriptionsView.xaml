@@ -33,5 +33,10 @@
                 </GridView>
             </ListView.View>
         </ListView>
+        <Button 
+            Command="{Binding UpdateCommand}"
+            Grid.Column="1" Content="Update" 
+            HorizontalAlignment="Left" Margin="123,88,0,0" VerticalAlignment="Top" 
+            Width="133" Height="86"/>
     </Grid>
 </UserControl>
